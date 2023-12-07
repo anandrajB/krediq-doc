@@ -1,0 +1,92 @@
+site_name: Krediq
+nav:
+  - Documentation: dev.md
+  - Trouble shoot: trouble.md
+  - Flow diagram: flows.md
+  - FAQ : faq.md
+  - Contact : contact.md
+
+index: index.md
+
+theme:
+  name: material
+  font:
+    code: Roboto Mono
+  logo: https://krediq-storage-bucket.blr1.cdn.digitaloceanspaces.com/static/images/krediq-icon.png
+  favicon: https://krediq-storage-bucket.blr1.cdn.digitaloceanspaces.com/static/images/krediq-icon.png
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  plugins:
+    - search
+    - offline
+    - social
+  toc_position: right
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - content.code.copy
+    - navigation.footer
+
+plugins:
+  - search
+  - mermaid2
+  - offline
+
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+extra_css:
+  - extras/base.css
+
+repo_name: venzotech/scfbackend
+repo_url: https://github.com/venzo-tech/scfbackend
+copyright: Copyright &copy; <b>krediq financial technologies pvt ltd - 2023
+extra:
+  homepage: index.html
+  generator: false
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/krediq
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/krediq/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/krediqfintech/
+    - icon:  fontawesome/brands/github
+      link: https://github.com/venzo-tech/scfbackend
+    - icon: fontawesome/brands/docker
+      link : https://fosstodon.org/@squidfunk
+    - icon: fontawesome/solid/envelope
+      link: mailto:krediq@gmail.com
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better .
+  version:
+    default: stable

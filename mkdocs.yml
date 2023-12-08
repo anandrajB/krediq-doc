@@ -5,6 +5,9 @@ nav:
   - Flow diagram: flows.md
   - FAQ : faq.md
   - Contact : contact.md
+  - krediflo : krediflo.md
+  - kredifin : kredifin.md
+  - kredichat : kredichat.md
 
 index: index.md
 
@@ -46,6 +49,7 @@ plugins:
 
 
 markdown_extensions:
+  - tables
   - attr_list
   - admonition
   - pymdownx.details

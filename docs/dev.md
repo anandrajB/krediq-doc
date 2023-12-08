@@ -382,11 +382,21 @@ Additional folders or subdirectories may exist based on specific project needs, 
 ---
 - **Finflo**
       - An customizable state transition package
-      - for integeration guidelines check [here](https://pypi.org/project/finflo/)
+      - for installation check [here](https://pypi.org/project/finflo/)
+      - for more information check [here](krediflo.md)
 
 - **Finance Module**
       - To  process finances and repayment calculations
       - For app walkthrough check [here](https://sea-turtle-app-r84t7.ondigitalocean.app/docs) 
+      - For usage and documentation check [here](kredifin.md)
+
+
+- **Chat app**
+      - bi-directional realtime chat application
+      - For app walkthrough check [here](https://finflo-chat-klh7t.ondigitalocean.app/docs) 
+      - For usage and documentation check [here](kredichat.md)
+
+
 
 ### External Service Configuration
 

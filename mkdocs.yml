@@ -44,7 +44,7 @@ theme:
 
 plugins:
   - search
-  - mermaid2
+  # - mermaid2
   - offline
 
 
